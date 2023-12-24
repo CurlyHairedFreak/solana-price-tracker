@@ -44,10 +44,10 @@ header {
 }
 
 main {
- width: 50%;
+ width: 60%;
  padding: 20px;
  margin: 2rem 0 0 2rem;
- border: 1px solid  #DC1FFF; 
+ /* border: 1px solid  #DC1FFF;  */
  border-radius: 10px;
  letter-spacing: 0.2rem;
  margin: 50px auto;
