@@ -14,7 +14,7 @@ export default function Main() {
 
   // Api call
   const apiUrl =
-    "https://api.coingecko.com/api/v3/simple/price?ids=Solana&vs_currencies=Usd&precision=2";
+    "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&precision=2";
 
   const getSolPrice = async () => {
     try {
