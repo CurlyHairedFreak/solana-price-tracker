@@ -40,10 +40,13 @@ export default function Main() {
 
   return (
     <main>
-      <div className="main--wrapper">
-        <h3 className={textAnimation}>Solana</h3>
-        {solPrice && <p className="main--price">- ${solPrice}</p>}
-      </div>
+      {solPrice === null && <div className="loader"></div>}
+      {solPrice && (
+        <div className="main--wrapper">
+          <h3 className={textAnimation}>Solana</h3>
+          {solPrice && <p className="main--price">- ${solPrice}</p>}
+        </div>
+      )}
     </main>
   );
 }
