@@ -1,0 +1,75 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+ background-color: #000;
+ color: #03E1FF;
+}
+
+header {
+ border-bottom: 2px solid  #DC1FFF;
+ display: flex;
+ align-items: center;
+}
+
+.header--img {
+  width: 85px;
+  margin-left: 30px;
+}
+
+.header--title {
+  font-size: 24px;
+}
+
+main {
+ width: 40%;
+ padding: 20px;
+ margin: 2rem 0 0 2rem;
+ border: 1px solid  #DC1FFF; 
+ border-radius: 10px;
+ letter-spacing: 0.2rem;
+ margin: 50px auto;
+}
+
+.main--wrapper {
+ display: flex;
+ justify-content: center;
+}
+
+.main--title_animation {
+  background: linear-gradient(to right, #00FFA3, #03E1FF, #DC1FFF );
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
+  background-size: 200% auto;
+  animation: Animation 10s ease infinite;
+}
+
+@keyframes Animation {
+  to {
+  background-position: 100%;
+}
+}
+
+
+.main--price {
+  margin: 3px 0 0 10px;
+}
+
+
+footer {
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+
+span {
+  color: #00FFA3;
+  font-style: italic;
+}
+
